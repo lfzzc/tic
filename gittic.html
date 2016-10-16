@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Tictactoe</title>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <link rel="stylesheet" href="tic.css"/>
+    <script src="tic.js"></script>
+</head>
+<body>
+<div class="container text-center">
+    <div class="modal fade" id="myModal" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Tic-Tac-Toe.js
+                </div>
+                <div class="modal-body">
+                    x or o ?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">x</button>
+                    <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">o</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <table class="tic">
+        <tbody>
+        <tr>
+            <td class="tip" id="0-0"></td>
+            <td class="tip" id="0-1"></td>
+            <td class="tip" id="0-2"></td>
+        </tr>
+        <tr>
+            <td class="tip" id="1-0"></td>
+            <td class="tip" id="1-1"></td>
+            <td class="tip" id="1-2"></td>
+        </tr>
+        <tr>
+            <td class="tip" id="2-0"></td>
+            <td class="tip" id="2-1"></td>
+            <td class="tip" id="2-2"></td>
+        </tr>
+        </tbody>
+    </table>
+    <button class="btn btn-primary btn-lg" id="restart">重新开始</button>
+</div>
+</body>
+</html>
